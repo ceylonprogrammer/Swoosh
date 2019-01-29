@@ -1,4 +1,4 @@
-package com.example.sameera.swoosh
+package com.example.sameera.swoosh.Controllar
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

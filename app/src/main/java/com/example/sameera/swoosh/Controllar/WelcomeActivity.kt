@@ -1,8 +1,8 @@
-package com.example.sameera.swoosh
+package com.example.sameera.swoosh.Controllar
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sameera.swoosh.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : BaseActivity() {
@@ -16,7 +16,7 @@ class WelcomeActivity : BaseActivity() {
             //with implicit intent specify action type and send to android system based on available apps and serve according to requirement
             //if matching the requirement then gave list to select the matching apps
             //with explicit intent type we define what is the exact class or application to open .This is using moving one activity to other
-            val leagueIntent=Intent(this,LeagueActivity::class.java)
+            val leagueIntent = Intent(this, LeagueActivity::class.java)
             startActivity(leagueIntent)
         }
     }

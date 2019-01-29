@@ -1,10 +1,11 @@
-package com.example.sameera.swoosh
+package com.example.sameera.swoosh.Controllar
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.sameera.swoosh.Utilities.EXTRA_LEAGUE
+import com.example.sameera.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
